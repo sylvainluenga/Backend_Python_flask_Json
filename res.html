@@ -1,0 +1,20 @@
+   	<code>
+   		{<br>
+   		"posts": [{<br>
+   		 {% for item in test %}
+   		     
+   		     "id": {{ item.id }}<br>
+   		     "author": {{ item.author }}<br>
+   		     "autherId": {{ item.authorId }}<br>
+   		     
+   		     "likes": {{ item.likes }}<br>
+   		     "popularity" :{{ item.popularity }}<br>
+   		     "reads": {{ item.reads }}<br>
+		     "tags": {{ item.tags }}<br><br>
+		     
+		 {% endfor %}
+		 }
+		]
+   	</code>
+	       <!-- Alex Sylvain Said u can still choose any frame of ur choice  -->
+
